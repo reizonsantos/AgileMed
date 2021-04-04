@@ -43,7 +43,7 @@ namespace AgileMed.Controllers
         {
             _funcionarioService.Create(funcionario);
 
-            return CreatedAtRoute("Getfuncionario", new { id = funcionario.IdFuncionario.ToString() }, funcionario);
+            return Created("Getfuncionario", funcionario);
         }
 
         [HttpPut("{id}")]

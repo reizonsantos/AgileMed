@@ -10,8 +10,8 @@ export default function() {
     return (
         <div className="criarContaContainer">
             <Form>
-                <div className="informationPack">
-                    <div>
+                <div className="row">
+                    <div className="column">
                         <Form.Item label="Nome Completo" name="name">
                             <Input />
                         </Form.Item>
@@ -19,7 +19,7 @@ export default function() {
                             <Input />
                         </Form.Item>
                     </div>
-                    <div>
+                    <div className="column">
                         <Form.Item label="CRO" name="cro">
                             <Input />
                         </Form.Item><Form.Item label="Função " name="funcao">

@@ -14,7 +14,7 @@ namespace AgileMed.Services
         public PacienteService(IPacienteDatabaseSettings settings)
         {
             var client = new MongoClient(settings.ConnectionString);
-            var database = client.GetDatabase(settings.CollectionName);
+            var database = client.GetDatabase(settings.DatabaseName);
 
             _paciente = database.GetCollection<Paciente>(settings.CollectionName);
         }
