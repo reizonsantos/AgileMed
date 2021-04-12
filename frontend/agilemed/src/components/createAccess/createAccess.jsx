@@ -1,7 +1,7 @@
 import React from 'react';
 import './createAccess.css';
 
-import { Form, Col } from 'react-bootstrap'
+import { Form, Col, Button, Row } from 'react-bootstrap'
 
 export default function (){
     return (
@@ -114,6 +114,20 @@ export default function (){
                     </Col>
                 </Form.Row>
             </Form>
+            <div class="buttonContainer">
+                <Row>
+                    <Col>
+                        <Button className="buttonCancel" href="/" variant="danger">
+                            Cancelar
+                        </Button>
+                    </Col>
+                    <Col>
+                        <Button className="buttonCreate" variant="success" type="submit">
+                            Criar
+                        </Button>
+                    </Col>
+                </Row>
+            </div>
         </div>
     )
 }

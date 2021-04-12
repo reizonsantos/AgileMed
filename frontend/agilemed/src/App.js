@@ -5,10 +5,11 @@ import Login from './components/login/login'
 import CreateAccess from './components/createAccess/createAccess'
 import Screening from './components/screening/screening'
 import Attendance from './components/attendance/attendance'
+import Navigation from './components/navigation/navigation'
 
 function App() {
   return (
-    <Attendance />
+    <Navigation />
   );
 }
 
