@@ -1,7 +1,7 @@
 import React from 'react';
 import './screening.css'
 
-import { Form, Col } from 'react-bootstrap'
+import { Form, Col, Row, Button } from 'react-bootstrap'
 
 export default function (){
     return (
@@ -94,6 +94,20 @@ export default function (){
                     </Form.Row>
                 </div>
             </Form>
+            <div class="buttonContainer">
+                <Row>
+                    <Col>
+                        <Button className="buttonCancel" href="/paginaPrincipal/" variant="danger">
+                            Cancelar
+                        </Button>
+                    </Col>
+                    <Col>
+                        <Button className="buttonSave" variant="success" type="submit">
+                            Salvar
+                        </Button>
+                    </Col>
+                </Row>
+            </div>
         </div>
     )
 }

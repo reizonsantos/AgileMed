@@ -20,7 +20,7 @@ export default function () {
                 <Button variant="primary" type="submit">
                     Login
                 </Button>
-                <a href="/criarAcesso/">Criar acesso</a>
+                <a href="/triagem/">Criar acesso</a>
             </div>
         </div>
     )

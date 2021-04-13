@@ -32,12 +32,6 @@ export default function () {
                     </Card.Body>
                 </Card>
             </div>
-            {/* <div className="buttonScreening">
-                <button href="/triagem/" class="buttonOne">Triagem</button>
-            </div>
-            <div className="buttonAttendance">
-            <button class="buttonTwo">Atendimento</button>
-            </div> */}
         </div>
     )
 }

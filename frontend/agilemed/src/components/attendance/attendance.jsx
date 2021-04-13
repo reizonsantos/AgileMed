@@ -1,7 +1,7 @@
 import React from 'react';
 import './attendance.css'
 
-import { Form, Col, FormControl } from 'react-bootstrap'
+import { Form, Col, Button, Row } from 'react-bootstrap'
 
 export default function (){
     return (
@@ -142,6 +142,20 @@ export default function (){
                     </Form.Row>
                 </div>
             </Form>
+            <div class="buttonContainer">
+                <Row>
+                    <Col>
+                        <Button className="buttonCancel" href="/paginaPrincipal/" variant="danger">
+                            Cancelar
+                        </Button>
+                    </Col>
+                    <Col>
+                        <Button className="buttonConfirm" variant="success" type="submit">
+                            Finalizar
+                        </Button>
+                    </Col>
+                </Row>
+            </div>
         </div>
     )
 }

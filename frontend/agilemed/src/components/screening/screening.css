@@ -1,4 +1,19 @@
 .screeningComponent{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCancel{
+    width: 100px;
+}
+
+.buttonSave{
+    width: 100px;
 }
