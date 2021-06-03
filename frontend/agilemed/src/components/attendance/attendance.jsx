@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './attendance.css'
+import api from '../../config/api'
+
 
 import { Form, Col, Button, Row } from 'react-bootstrap'
 
 export default function (){
+
+    // const [dataPacient, setDataPaciente] = useState([])
+
+    // useEffect(async () => {
+    //     const response = await api.get("https://localhost:49156/Paciente");
+    //     const data = await response.json();
+
+    //     setDataPaciente(data);
+    // }, [])
+
     return (
         <div className="attendanceComponent">
             <Form>

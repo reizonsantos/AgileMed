@@ -1,7 +1,7 @@
 import React from 'react';
 import './mainPage.css'
 
-import { Button, Card, Image } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import imgScreening from '../../assets/imgs/screening.png';
 import imgAttendance from '../../assets/imgs/attendance.png';
 

@@ -31,7 +31,6 @@ C:\Users\reizo\Desktop\AgileMed\AgileMed\backend\AgileMed\bin\Debug\net5.0\runti
 C:\Users\reizo\Desktop\AgileMed\AgileMed\backend\AgileMed\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\reizo\Desktop\AgileMed\AgileMed\backend\AgileMed\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\reizo\Desktop\AgileMed\AgileMed\backend\AgileMed\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
-C:\Users\reizo\Desktop\AgileMed\AgileMed\backend\AgileMed\obj\Debug\net5.0\AgileMed.csprojAssemblyReference.cache
 C:\Users\reizo\Desktop\AgileMed\AgileMed\backend\AgileMed\obj\Debug\net5.0\AgileMed.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\reizo\Desktop\AgileMed\AgileMed\backend\AgileMed\obj\Debug\net5.0\AgileMed.AssemblyInfoInputs.cache
 C:\Users\reizo\Desktop\AgileMed\AgileMed\backend\AgileMed\obj\Debug\net5.0\AgileMed.AssemblyInfo.cs
